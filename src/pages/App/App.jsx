@@ -27,7 +27,10 @@ export default function App() {
           </div>
         </>
       ) : (
-        <AuthPage setUser={setUser} />
+        <div className="h-[100vh] flex items-center justify-center">
+
+          <AuthPage setUser={setUser} />
+        </div>
       )}
     </main>
   );
